@@ -1,0 +1,137 @@
+@import 'tailwindcss';
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite";
+
+@theme {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+
+  --font-sans: 'Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-body: 'Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-mono: 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace';
+}
+
+:root {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  --tw-border-opacity: 1;
+  --tw-shadow-color: 40, 40, 40;
+  --tw-shadow: 0 2px 8px 0 rgba(var(--tw-shadow-color), 0.5);
+  --color-gray-50: #282828;
+  --color-gray-100: #3c3836;
+  --color-gray-200: #504945;
+  --color-gray-300: #665c54;
+  --color-gray-400: #928374;
+  --color-gray-500: #a89984;
+  --color-gray-600: #bdae93;
+  --color-gray-700: #d5c4a1;
+  --color-gray-800: #ebdbb2;
+  --color-gray-900: #fbf1c7;
+  --color-yellow-400: #fabd2f;
+  --color-yellow-500: #fabd2f;
+  --color-orange-400: #fe8019;
+  --color-orange-500: #fe8019;
+  --color-blue-400: #83a598;
+  --color-blue-500: #83a598;
+  --color-green-400: #b8bb26;
+  --color-green-500: #b8bb26;
+  --color-red-400: #fb4934;
+  --color-red-500: #fb4934;
+  --color-aqua-400: #8ec07c;
+  --color-aqua-500: #8ec07c;
+  --color-white: #ebdbb2;
+  --color-black: #282828;
+}
+
+body,
+.bg-white,
+.bg-gray-50,
+.dark\:bg-gray-900,
+.dark\:bg-gray-800 {
+  background-color: var(--color-gray-50) !important;
+  color: var(--color-gray-800) !important;
+}
+
+.text-gray-900,
+.dark\:text-white,
+.text-gray-700,
+.dark\:text-gray-300,
+.dark\:text-gray-400 {
+  color: var(--color-gray-800) !important;
+}
+
+.border,
+.border-gray-200,
+.dark\:border-gray-700,
+.border-gray-300,
+.dark\:border-gray-600 {
+  border-color: var(--color-gray-200) !important;
+}
+
+.text-yellow-500,
+.text-yellow-400,
+.text-yellow-600,
+.text-yellow-700,
+.text-yellow-800 {
+  color: var(--color-yellow-500) !important;
+}
+
+.text-orange-500,
+.text-orange-400 {
+  color: var(--color-orange-500) !important;
+}
+
+.text-blue-500,
+.text-blue-400 {
+  color: var(--color-blue-500) !important;
+}
+
+.text-green-500,
+.text-green-400 {
+  color: var(--color-green-500) !important;
+}
+
+.text-red-500,
+.text-red-400 {
+  color: var(--color-red-500) !important;
+}
+
+.text-aqua-500,
+.text-aqua-400 {
+  color: var(--color-aqua-500) !important;
+}
+
+input[type="checkbox"].form-checkbox:checked {
+  background-color: var(--color-yellow-500) !important;
+  border-color: var(--color-yellow-500) !important;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-yellow-500) !important;
+}
+
+label,
+select,
+option {
+  color: var(--color-orange-500) !important;
+}
+
+video {
+  background: var(--color-gray-200);
+  border-radius: 0.5rem;
+}
+
+.shadow {
+  box-shadow: var(--tw-shadow);
+}
